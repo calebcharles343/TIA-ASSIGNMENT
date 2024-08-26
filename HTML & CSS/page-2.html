@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/page-2.css" />
+
+    <title>FINAL TIA ASSIGNMENT HTML & CSS (CHARLES CALEB)</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>CHARLES CALEB</h1>
+    </header>
+
+    <main>
+      <div class="form--container">
+        <h2>Programming Languages Survey</h2>
+
+        <div class="section">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <!-- Section 2: Experience Level -->
+        <div class="section">
+          <label for="experience">Level of Experience:</label>
+          <select id="experience" name="experience" required>
+            <option value="hobbyist">Hobbyist</option>
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+          </select>
+        </div>
+
+        <!-- Section 3: Favorite OS -->
+        <div class="section">
+          <label>Favorite OS:</label>
+          <div class="radio--group">
+            <label
+              ><input type="radio" name="os" value="windows" required />
+              Windows</label
+            >
+
+            <label
+              ><input type="radio" name="os" value="macos" required />
+              MacOS</label
+            >
+            <label
+              ><input type="radio" name="os" value="linux" required />
+              Linux</label
+            >
+          </div>
+        </div>
+
+        <!-- Section 4: Programming Languages Interest -->
+        <div class="section">
+          <label>Programming Languages of Interest:</label>
+          <div class="checkbox--group">
+            <label
+              ><input type="checkbox" name="languages" value="c" /> C</label
+            >
+            <label
+              ><input type="checkbox" name="languages" value="c++" /> C++</label
+            >
+            <label
+              ><input type="checkbox" name="languages" value="c#" /> C#</label
+            >
+            <label
+              ><input type="checkbox" name="languages" value="javascript" />
+              JavaScript</label
+            >
+            <label
+              ><input type="checkbox" name="languages" value="typescript" />
+              TypeScript</label
+            >
+          </div>
+        </div>
+
+        <!-- Section 5: Additional Comments -->
+        <div class="section">
+          <label for="comments">Further Comments:</label>
+          <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="section">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p><strong>Contact Information:</strong></p>
+        <h4>Name: Charles Caleb</h4>
+        <p><strong>Phone: </strong>+234222425170</p>
+        <p>
+          <strong>Email: </strong>
+
+          <a href="hello@assignment.com" class="link">hello@assignment.com</a>
+        </p>
+      </div>
+
+      <div>
+        <p>&copy; Copyright 14th August 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>

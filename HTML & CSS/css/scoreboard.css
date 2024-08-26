@@ -1,0 +1,236 @@
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #212529;
+  padding: 5%;
+}
+
+.board-1,
+.board-2 {
+  color: #f8f9fa;
+  background-color: #343a40;
+  min-width: 1000px;
+  min-height: 800px;
+  margin-bottom: 2.5%;
+}
+
+.logoSummary,
+.stats--row,
+.stat--container,
+.stat--value,
+.team-logo,
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-logo {
+  flex-direction: column;
+  gap: 10px;
+  min-width: 180px;
+}
+
+.team {
+  font-size: small;
+}
+
+.numbers--font-style {
+  font-weight: 500;
+}
+
+.logoSummary {
+  padding: 2.5%;
+  gap: 25%;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.stat--container {
+  flex-direction: column;
+  min-width: 80%;
+}
+
+.stats--row {
+  font-size: large;
+  gap: 30%;
+  padding-top: 2.5%;
+}
+
+.stat--ball-possession,
+.stat--total-shots,
+.stat--corners,
+.stat--fouls,
+.stat--shots-accuracy,
+.stat__shots--on--target,
+.stat__shots--off--target,
+.stat--blocked-shots,
+.stat__big--chances-missed,
+.stat--offsides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dee2e6;
+  width: 600px;
+}
+
+.stat--value {
+  width: 80px;
+  height: 50px;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+}
+
+.stats--row {
+  display: flex;
+  max-width: 600px;
+}
+
+.ball--possession-1,
+.ball--possession-2,
+.total--shots-1,
+.total--shots-2,
+.corners-1,
+.corners-2,
+.fouls-1,
+.fouls-2,
+.shots--accuracy-1,
+.shots--accuracy-2,
+.shots__on--target-1,
+.shots__on--target-2,
+.shots__off--target-1,
+.shots__off--target-2,
+.blocked--shot-1,
+.blocked--shot-2,
+.big__chances--missed-1,
+.big__chances--missed-2,
+.offsides-1,
+.offsides-2 {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  height: 14px;
+  width: 290px;
+  padding: 2px 2px 2px 2px;
+}
+
+.stat--bar-percentage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.ball--possession-2,
+.total--shots-2,
+.corners-2,
+.fouls-2,
+.shots--accuracy-2,
+.shots__on--target-2,
+.shots__off--target-2,
+.blocked--shot-2,
+.big__chances--missed-2,
+.offsides-2 {
+  justify-content: end;
+}
+
+.bar--bp-1,
+.bar--bp-2,
+.bar--ts-1,
+.bar--ts-2,
+.bar--cn-1,
+.bar--cn-2,
+.bar--fl-1,
+.bar--fl-2,
+.bar--sa-1,
+.bar--sa-2,
+.bar--snt-1,
+.bar--snt-2,
+.bar--sot-1,
+.bar--sot-2,
+.bar--sof-1,
+.bar--sof-2,
+.bar--bs-1,
+.bar--bs-2,
+.bar--bcm-1,
+.bar--bcm-2,
+.bar--ofs-1,
+.bar--ofs-2 {
+  background-color: #212529;
+  height: 8px;
+}
+
+/*board 1 => percentage bar*/
+.bar--bp-1 {
+  width: 69.9%;
+}
+.bar--bp-2 {
+  width: 31.1%;
+}
+
+.bar--ts-1 {
+  width: 85%;
+}
+
+.bar--ts-2 {
+  width: 25%;
+}
+
+.bar--cn-1 {
+  width: 100%;
+}
+
+.bar--cn-2 {
+  width: 0%;
+}
+
+.bar--fl-1 {
+  width: 61.9%;
+}
+
+.bar--fl-2 {
+  width: 38.1%;
+}
+
+/*board 2 => percentage bar*/
+
+.bar--sa-1 {
+  width: 24%;
+}
+.bar--sa-2 {
+  width: 17%;
+}
+.bar--snt-1 {
+  width: 88.8%;
+}
+.bar--snt-2 {
+  width: 12.2%;
+}
+.bar--sot-1 {
+  width: 76.4%;
+}
+.bar--sot-2 {
+  width: 23.6%;
+}
+.bar--bs-1 {
+  width: 92.8%;
+}
+.bar--bs-2 {
+  width: 17.2%;
+}
+.bar--bcm-1 {
+  width: 50%;
+}
+.bar--bcm-2 {
+  width: 50%;
+}
+.bar--ofs-1 {
+  width: 66.6%;
+}
+.bar--ofs-2 {
+  width: 33.4%;
+}
